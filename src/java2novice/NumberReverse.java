@@ -16,6 +16,10 @@ public class NumberReverse {
         this.number = 0;
     }
     
+    public NumberReverse(int n) {
+        this.number = n;
+    }
+    
     public void readNumber() {
         Scanner s = new Scanner(System.in);
         System.out.println("Insert number to reverse: ");
