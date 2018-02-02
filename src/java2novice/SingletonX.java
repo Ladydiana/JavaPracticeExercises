@@ -3,7 +3,7 @@
  */
 
 package java2novice;
-
+ 
 
 // Singleton -> you can create only 1 object of the class
 public class SingletonX {
