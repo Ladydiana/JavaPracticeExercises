@@ -7,15 +7,15 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class ArrayMaxDuplicate {
+public class ArrayMaxElement {
     
     int[] arr;
     
-    ArrayMaxDuplicate(int arr[]) {
+    ArrayMaxElement(int arr[]) {
         this.arr = arr;
     }
     
-    ArrayMaxDuplicate(int size) {
+    ArrayMaxElement(int size) {
         this.arr = new int[size];
     }
     
@@ -58,7 +58,7 @@ public class ArrayMaxDuplicate {
         }
         s.close();
         
-        ArrayMaxDuplicate amd = new ArrayMaxDuplicate(ar);
+        ArrayMaxElement amd = new ArrayMaxElement(ar);
         
         System.out.println("Solution 1 with sorting: " + amd.Solution1(ar));
         
