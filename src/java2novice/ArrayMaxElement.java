@@ -25,6 +25,20 @@ public class ArrayMaxElement {
         return arr[arr.length-1];
     }
     
+    // Solution 2
+    public int Solution2 (int [] arr) {
+        int max = Integer.MIN_VALUE;
+        
+        for(int i=0; i< arr.length; i++) {
+            if(max<arr[i]) {
+                max =  arr[i];
+            }
+        }
+        
+        return max;
+    }
+    
+    
     public static void main(String args[]){
         int [] ar;
         int size = 0;
@@ -61,6 +75,7 @@ public class ArrayMaxElement {
         ArrayMaxElement amd = new ArrayMaxElement(ar);
         
         System.out.println("Solution 1 with sorting: " + amd.Solution1(ar));
+        System.out.println("Solution 2 without sorting: " + amd.Solution2(ar));
         
     }
     
