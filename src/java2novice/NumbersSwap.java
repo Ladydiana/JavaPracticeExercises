@@ -30,7 +30,7 @@ public class NumbersSwap {
         
         NumbersSwap ns = new NumbersSwap();
         Swap sw = ns.swap(a, b);
-        System.out.println("After swap: \na=" + sw.a + "\nb= "+ sw.b);
+        System.out.println("After swap: \na= " + sw.a + "\nb= "+ sw.b);
         
     }
 }
