@@ -77,7 +77,7 @@ public class CommonElement2Arrays {
      * Printing the values in the Hash Map which we detected as common
      */
     public void printHM(HashMap<Integer, Integer> hm) {
-        System.out.println("Common elements: ");
+        System.out.print("Common elements: ");
         Iterator it = hm.entrySet().iterator();
         while(it.hasNext()) {
             Map.Entry<Integer,Integer> me = (Map.Entry) it.next();
@@ -85,6 +85,18 @@ public class CommonElement2Arrays {
                 System.out.print(me.getKey() + " ");
             }
         }
+    }
+    
+    /*
+     * Solution using iteration.
+     * Complexity: O(n^2)
+     */
+    public void findCommonElementsIt(int []arr1, int []arr2 ) {
+        System.out.print("Common elements: ");
+        for(int i=0; i< arr1.length; i++)
+            for(int j=0; j< arr2.length; j++)
+                if(arr1[i]==arr2[j])
+                    System.out.print(arr1[i] + " ");
     }
     
     public static void main(String args[]) {
@@ -96,7 +108,11 @@ public class CommonElement2Arrays {
         arr1 = ce2a.readArray();
         arr2 = ce2a.readArray();
         
+        System.out.println("HashMap solution: ");
         ce2a.printHM(ce2a.findCommonElementsHM(arr1, arr2));
-        
+         System.out.println();
+        System.out.println("-------------------------------");
+        System.out.println("Iterative solution: ");
+        ce2a.findCommonElementsIt(arr1, arr2);
     }
 }
