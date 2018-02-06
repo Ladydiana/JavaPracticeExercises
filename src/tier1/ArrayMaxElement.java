@@ -1,7 +1,7 @@
 /*
  * Write a program to find the maximum number in a given array.
  */
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 import java.util.Arrays;

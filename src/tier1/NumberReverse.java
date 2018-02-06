@@ -3,8 +3,9 @@
  */
 
 
-package java2novice;
+package tier1;
 
+import tier2.StringReverseRecursive;
 import java.util.Scanner;
 
 

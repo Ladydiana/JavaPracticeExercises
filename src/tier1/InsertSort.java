@@ -2,7 +2,7 @@
  * Write a program for Insertion Sort.
  */
 
-package java2novice;
+package tier1;
 
 import java.util.ArrayList;
 import java.util.Scanner;

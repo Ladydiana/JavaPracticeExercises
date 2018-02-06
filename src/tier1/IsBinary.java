@@ -2,7 +2,7 @@
  * Write a program to check if a given number is binary or not.
  */
 
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 

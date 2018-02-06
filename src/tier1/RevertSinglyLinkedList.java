@@ -2,7 +2,7 @@
  * @author Diana Cristina Culincu
  */
 
-package java2novice;
+package tier1;
 
 import java.util.LinkedList;
 

@@ -2,7 +2,7 @@
  * Write a program to find out duplicate or repeated characters in a string.
  */
 
-package java2novice;
+package tier1;
 
 
 import java.util.Scanner;

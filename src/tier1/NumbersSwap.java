@@ -2,7 +2,7 @@
  * Write a program to swap two numbers without using temporary variable.
  */
 
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 

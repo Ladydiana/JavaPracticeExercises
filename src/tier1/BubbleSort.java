@@ -2,7 +2,7 @@
  * Write a program to sort an array using Bubble Sort.
  */
 
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 import java.util.ArrayList;

@@ -2,7 +2,7 @@
  * Write a program to find the sum of the first x prime numbers.
  */
 
-package java2novice;
+package tier2;
 
 import java.util.Scanner;
 

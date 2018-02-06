@@ -2,7 +2,7 @@
  * Write a program to find if a given number is an Armstrong number.
  */
 
-package java2novice;
+package tier2;
 
 import java.util.Scanner;
 

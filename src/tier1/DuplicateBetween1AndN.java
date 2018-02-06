@@ -1,15 +1,13 @@
-package java2novice;
+package tier1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * @author Diana Cristina Culincu
- */
 
 /*
  * Find out duplicate number between 1 to N numbers.
  */
+
 public class DuplicateBetween1AndN {
     
     public static Integer getDuplicate(ArrayList<Integer> l) {

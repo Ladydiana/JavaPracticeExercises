@@ -2,7 +2,7 @@
  * Write a program to identify common elements or numbers between two given arrays. 
  */
 
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;

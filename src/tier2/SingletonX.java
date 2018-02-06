@@ -2,7 +2,7 @@
  * Write a singleton class
  */
 
-package java2novice;
+package tier2;
  
 
 // Singleton -> you can create only 1 object of the class

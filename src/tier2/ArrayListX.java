@@ -2,7 +2,7 @@
  * Write a program to implement your own ArrayList class.
  */
 
-package java2novice;
+package tier2;
 
 import java.util.Arrays;
 import java.util.Scanner;

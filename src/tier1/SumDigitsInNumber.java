@@ -2,7 +2,7 @@
  * Write a program to find sum of each digit in the given number. 
  */
 
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
  * Write a program to convert decimal number to binary format
  */
 
-package java2novice;
+package tier1;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
  * Write a program to reverse a string using recursive methods.
  */
 
-package java2novice;
+package tier2;
 
 import java.util.Scanner;
 
