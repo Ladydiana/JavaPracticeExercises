@@ -15,6 +15,17 @@ public class CoordinateDistanceInSpace {
     
     Point A, B;
     
+    class Point {
+        int x;
+        int y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+    
+    
     public Point readCoordinates() {
         int x, y;
         Scanner s = new Scanner(System.in);
@@ -45,15 +56,5 @@ public class CoordinateDistanceInSpace {
         cdis.B = cdis.readCoordinates();
         
         cdis.computeDistance();
-    }
-}
-
-class Point {
-    int x;
-    int y;
-    
-    Point(int x, int y) {
-        this.x = x;
-        this.y = y;
     }
 }
