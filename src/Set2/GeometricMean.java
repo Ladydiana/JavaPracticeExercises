@@ -1,5 +1,5 @@
 /*
- * Write a program to compute the arithmetic mean of 2 numbers a and b.
+ * Write a program to compute the geometric mean of 2 numbers a and b.
  * The geometric mean is defined as the nth root of the product of n numbers.
  * For instance, the geometric mean of two numbers, say 2 and 8, is just the \
  * square root of their product, that is, sqrt(2*8)=4.
