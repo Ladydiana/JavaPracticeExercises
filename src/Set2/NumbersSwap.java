@@ -1,50 +1,50 @@
 /*
- * Write a program to swap two numbers without using temporary variable.
+ * Write a program to interchange the values of 2 variables a and b:
+ *   a. using one auxiliary variable
+ *   b. without using one auxiliary variable
  */
 
-package tier1;
+package Set2;
 
 import java.util.Scanner;
 
 public class NumbersSwap {
     
-    public Swap swap(int a, int b) {
-        Swap sw = new Swap(a, b);
-        
-        sw.a = sw.a + sw.b;
-        sw.b = sw.a - sw.b;
-        sw.a = sw.a - sw.b;
-        
-        return sw;
-    } 
+    int a, b;
+    
+    public void swapWithoutVariable() {
+        a = a + b;
+        b = a - b;
+        a = a - b;
+    }
+    
+    public void swapWithVariable() {
+        int aux = a;
+        a = b;
+        b = aux;
+    }
+    
+    public void readVariables() {
+        Scanner s = new Scanner(System.in);
+        System.out.print("a= ");
+        this.a = s.nextInt();
+        System.out.println();
+        System.out.print("b= ");
+        this.b = s.nextInt();
+        System.out.println();
+    }
     
     
     public static void main(String args[]) {
-        Scanner s = new Scanner(System.in);
-        System.out.print("a= ");
-        int a = s.nextInt();
-        System.out.println();
-        System.out.print("b= ");
-        int b = s.nextInt();
-        System.out.println();
         
         NumbersSwap ns = new NumbersSwap();
-        Swap sw = ns.swap(a, b);
-        System.out.println("After swap: \na= " + sw.a + "\nb= "+ sw.b);
+        ns.readVariables();
         
-    }
-}
-
-class Swap {
-    public int a;
-    public int b;
-    
-    public Swap() {
+        ns.swapWithVariable();
+        System.out.println("Swapping with variable: \na= " + ns.a + "\nb= "+ ns.b);
         
-    }
-    
-    public Swap(int a, int b) {
-        this.a = a;
-        this.b = b;
+        ns.swapWithoutVariable();
+        System.out.println("Re-swapping without variable: \na= " + ns.a + "\nb= "+ ns.b);
+        
     }
 }
