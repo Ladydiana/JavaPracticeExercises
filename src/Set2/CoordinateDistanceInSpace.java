@@ -25,8 +25,7 @@ public class CoordinateDistanceInSpace {
         }
     }
     
-    
-    public Point readCoordinates() {
+    private Point readCoordinates() {
         int x, y;
         Scanner s = new Scanner(System.in);
         
