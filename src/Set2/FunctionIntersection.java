@@ -2,7 +2,7 @@
  * We have functions f,g :R->R, where 
  * f(x)=a*x+b and 
  * g(x)=c*x+d
- * Find the intersection point in the graphs of thse 2 functions.
+ * Find the intersection point in the graphs of these 2 functions.
  * Since these are linear functions, their graphs are lines.
  * We consider that this point has (x, y) coordinates. So, at the point of \
  * intersection the (x, y) coordinates for function 1 equal the (x, y) \
