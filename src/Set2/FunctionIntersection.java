@@ -23,7 +23,43 @@
 
 package Set2;
 
+import java.util.Scanner;
 
 public class FunctionIntersection {
     
+    int a, b, c, d;
+    
+    public FunctionIntersection() {
+        
+    }
+    
+    public FunctionIntersection(int a, int b, int c, int d) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.d = d;
+    }
+    
+    public void readNumber() {
+        Scanner s = new Scanner(System.in);
+        System.out.print("a= ");
+        this.a = s.nextInt();
+        System.out.print("b= ");
+        this.b = s.nextInt();
+        System.out.print("c= ");
+        this.c = s.nextInt();
+        System.out.print("d= ");
+        this.d = s.nextInt();
+        s.close();
+    }
+    
+    public double getIntersectionPoint() {
+        return (double)(d - b)/(a - c);
+    }
+    
+    public static void main(String args[]) {
+        FunctionIntersection fi = new FunctionIntersection();
+        fi.readNumber();
+        System.out.println("Intersection point: " + fi.getIntersectionPoint());
+    }
 }
