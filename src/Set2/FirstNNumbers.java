@@ -16,6 +16,13 @@ public class FirstNNumbers {
         s.close();
     }
     
+    public void checkNumber() {
+        if(n<0) {
+            System.err.println("Number has to be greater than 0.");
+            System.exit(0);
+        }
+    }
+    
     public void printFirstNNumbers() {
         for(int i=1; i<=n; i++) {
             System.out.print(i+" ");
@@ -25,6 +32,7 @@ public class FirstNNumbers {
     public static void main(String args[]) {
         FirstNNumbers fnn = new FirstNNumbers();
         fnn.readNumber();
+        fnn.checkNumber();
         fnn.printFirstNNumbers();
     }
 }
