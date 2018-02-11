@@ -1,6 +1,7 @@
 /*
  * Print the first n numbers different from 0.
  */
+
 package Set2;
 
 import java.util.Scanner;
@@ -15,8 +16,15 @@ public class FirstNNumbers {
         s.close();
     }
     
+    public void printFirstNNumbers() {
+        for(int i=1; i<=n; i++) {
+            System.out.print(i+" ");
+        }
+    }
+    
     public static void main(String args[]) {
         FirstNNumbers fnn = new FirstNNumbers();
         fnn.readNumber();
+        fnn.printFirstNNumbers();
     }
 }
