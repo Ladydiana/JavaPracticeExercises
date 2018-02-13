@@ -23,14 +23,14 @@ public class PerimeterRectangle {
     }
     
     public void checkLength() {
-        if(L<0) {
+        if(L<=0) {
             System.err.println("Length has to be greater than 0.");
             System.exit(0);
         }
     }
     
     public void checkWidth() {
-        if(W<0) {
+        if(W<=0) {
             System.err.println("Width has to be greater than 0.");
             System.exit(0);
         }
