@@ -25,7 +25,7 @@ public class VolumeSphere {
     }
     
     public void computeVolume() {
-        System.out.println("Perimeter: " + Math.pow(r,3)*4/3+ "π = " + 
+        System.out.println("Volume: " + Math.pow(r,3)*4/3+ "π = " + 
                             (Math.pow(r,3)*4/3*Math.PI));
     }
     
