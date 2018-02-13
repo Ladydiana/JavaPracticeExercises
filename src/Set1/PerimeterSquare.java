@@ -7,12 +7,12 @@ package Set1;
 import java.util.Scanner;
 
 public class PerimeterSquare {
-    int L;
+    double L;
     
     public void readLength() {
         System.out.print("L= ");
         Scanner s = new Scanner(System.in);
-        this.L = s.nextInt();
+        this.L = s.nextDouble();
         s.close();
     }
     
