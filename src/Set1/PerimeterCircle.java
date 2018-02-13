@@ -9,14 +9,14 @@ import java.util.Scanner;
 public class PerimeterCircle {
     double r;
     
-    public void readLength() {
+    public void readRadius() {
         System.out.print("r= ");
         Scanner s = new Scanner(System.in);
         this.r = s.nextDouble();
         s.close();
     }
     
-    public void checkLength() {
+    public void checkRadius() {
         if(r<=0) {
             System.err.println("Length has to be greater than 0.");
             System.exit(0);
@@ -29,8 +29,8 @@ public class PerimeterCircle {
     
     public static void main(String args[]) {
         PerimeterCircle pc = new PerimeterCircle();
-        pc.readLength();
-        pc.checkLength();
+        pc.readRadius();
+        pc.checkRadius();
         pc.computePerimeter();
     }
 }
