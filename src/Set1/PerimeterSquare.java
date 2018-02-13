@@ -17,7 +17,7 @@ public class PerimeterSquare {
     }
     
     public void checkLength() {
-        if(L<0) {
+        if(L<=0) {
             System.err.println("Length has to be greater than 0.");
             System.exit(0);
         }
