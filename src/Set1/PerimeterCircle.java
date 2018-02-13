@@ -25,7 +25,7 @@ public class PerimeterCircle {
     }
     
     public void computePerimeter() {
-        System.out.println("Perimeter: " + (2*r)+ " * π = " + ((2*r)*Math.PI));
+        System.out.println("Perimeter: " + (2*r)+ "π = " + ((2*r)*Math.PI));
     }
     
     public static void main(String args[]) {
