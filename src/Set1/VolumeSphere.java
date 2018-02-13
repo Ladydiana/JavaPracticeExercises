@@ -1,5 +1,5 @@
 /*
- *  Find the volume of a circle of radius r.
+ *  Find the volume of a sphere of radius r.
  */
 
 package Set1;
