@@ -6,7 +6,6 @@ package Set1;
 
 import java.util.Scanner;
 
-
 public class PerimeterRectangle {
     double L, W;
     
