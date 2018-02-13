@@ -25,7 +25,7 @@ public class AreaCircle {
     }
     
     public void computeArea() {
-        System.out.println("Perimeter: " + (r*r)+ "π = " + ((r*r)*Math.PI));
+        System.out.println("Area: " + (r*r)+ "π = " + ((r*r)*Math.PI));
     }
     
     public static void main(String args[]) {
