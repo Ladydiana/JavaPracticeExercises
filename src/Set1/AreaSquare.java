@@ -1,6 +1,7 @@
 /*
  *  Find the area of a square of length L.
  */
+
 package Set1;
 
 import java.util.Scanner;
