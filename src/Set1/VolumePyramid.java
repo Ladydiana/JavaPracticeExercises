@@ -27,7 +27,7 @@ public class VolumePyramid {
     }
     
     public void computeVolume() {
-        System.out.println("Volume: " + (A*H)*(1/(double)3));
+        System.out.println("Volume: " + (A*H)*(1/(double)3)); //cast to double, to do floating point calculations
     }
     
     public static void main(String args[]) {
