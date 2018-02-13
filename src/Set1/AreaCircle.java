@@ -34,6 +34,4 @@ public class AreaCircle {
         ac.checkRadius();
         ac.computeArea();
     }
-    
-    
 }
