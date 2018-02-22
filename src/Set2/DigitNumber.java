@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class DigitNumber {
     
-    int n, noOfDigits=0;
+    int n;
 
     public void readNumber() {
         System.out.print("n= ");
