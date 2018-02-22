@@ -29,9 +29,14 @@ public class ArithmeticSeries {
         }
     }
     
-    public void computeSum() {
-        System.out.println("Volume: " + (A*H)*(1/(double)3)); //cast to double, to do floating point calculations
+    public double computeSum() {
+        return (0.5*n*(2*a1+ (n-1)*d));  
     }
     
-    
+    public static void main(String args[]) {
+        ArithmeticSeries as = new ArithmeticSeries();
+        as.readTerms();
+        as.checkTerms();
+        System.out.println("Arithmetic serie sum: "+as.computeSum());
+    }
 }
