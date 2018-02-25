@@ -2,7 +2,7 @@
  * Write a program to check the given number is a prime number.
  */
 
-package tier1;
+package Set2;
 
 import java.util.Scanner;
 
