@@ -1,8 +1,8 @@
 /*
- * Write a program to convert decimal number to binary format
+ * Write a program to convert decimal number to binary format.
  */
 
-package tier1;
+package Set2;
 
 import java.util.Scanner;
 
