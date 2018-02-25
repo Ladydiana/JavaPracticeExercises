@@ -27,13 +27,13 @@ public class Sum2ndPowerFirstNDigits {
     }
     
     public int computeSum() {
-        return 
+        return (n*(n+1)*(2*n+1))/6;
     }
     
     public static void main(String args[]) {
         Sum2ndPowerFirstNDigits s2pfnd = new Sum2ndPowerFirstNDigits();
         s2pfnd.readNumber();
         s2pfnd.checkNumber();
-        
+        System.out.println("S= " + s2pfnd.computeSum());
     }
 }
