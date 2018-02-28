@@ -11,14 +11,6 @@ public class DigitElimination2 {
     
     int n;
     
-    public DigitElimination2 () {
-        
-    }
-    
-    public DigitElimination2(int n) {
-        this.n = n;
-    }
-    
     public void checkNumber() {
         // Checking to see if our number has 4 digits
         if(n/1000==0 || n/1000>9) {
@@ -31,7 +23,6 @@ public class DigitElimination2 {
         System.out.print("n= ");
         Scanner s = new Scanner(System.in);
         this.n = s.nextInt();
-        
         checkNumber();
     }
     
@@ -45,5 +36,4 @@ public class DigitElimination2 {
         de.readNumber();
         System.out.println(de.eliminateDigits());
     }
-        
 }
