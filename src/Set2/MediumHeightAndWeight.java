@@ -1,5 +1,6 @@
 /*
- * Find the medium weight and height for the n students from a classroom, with each weight and height read from keyboard.
+ * Find the medium weight and height for the n students from a classroom, with \
+ * each weight and height read from keyboard.
  */
 
 package Set2;
