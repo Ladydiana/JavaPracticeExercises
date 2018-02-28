@@ -23,7 +23,7 @@ public class DigitElimination3 {
         Scanner s = new Scanner(System.in);
         this.n = s.nextInt();
         checkNumber();
-    } //12345
+    } 
     
     public int eliminateDigits() {
         int new_n = (n/1000)*100 + n%100;
