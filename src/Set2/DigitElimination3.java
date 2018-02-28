@@ -23,6 +23,7 @@ public class DigitElimination3 {
         Scanner s = new Scanner(System.in);
         this.n = s.nextInt();
         checkNumber();
+        s.close();
     } 
     
     public int eliminateDigits() {
