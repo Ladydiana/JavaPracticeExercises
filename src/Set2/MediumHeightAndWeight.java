@@ -38,7 +38,7 @@ public class MediumHeightAndWeight {
         for(int i=0; i<n; i++) {
             System.out.print("Height of student " + (i+1) + ": ");
             heights.add(s.nextDouble());
-            System.out.print("\nWeight of student " + (i+1) + ": ");
+            System.out.print("Weight of student " + (i+1) + ": ");
             weights.add(s.nextDouble());
         }
         s.close();
