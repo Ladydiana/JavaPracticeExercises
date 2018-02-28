@@ -32,8 +32,8 @@ public class DigitElimination2 {
     }
     
     public static void main(String args[]) {
-        DigitElimination2 de = new DigitElimination2();
-        de.readNumber();
-        System.out.println(de.eliminateDigits());
+        DigitElimination2 de2 = new DigitElimination2();
+        de2.readNumber();
+        System.out.println(de2.eliminateDigits());
     }
 }
