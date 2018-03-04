@@ -20,7 +20,10 @@ public class SimplifyFraction {
         b = s.nextInt();
         s.close();
         
-        f = new Fraction(a, b);
+        if((a<0 && b>0) || (a>0 && b<0))
+            f = new Fraction(Math.abs(a), Math.abs(b), -1);
+        else
+            f = new Fraction(Math.abs(a), Math.abs(b), 1);
     }
     
     public void simplifyTerms() {
@@ -45,7 +48,7 @@ public class SimplifyFraction {
         sf.readFractionTerms();
         sf.simplifyTerms();
         System.out.println("Simplified fraction: " +
-                            sf.f.a +
+                            (sf.f.sign * sf.f.a) +
                             " / " +
                             sf.f.b);
     }
@@ -54,10 +57,12 @@ public class SimplifyFraction {
 
 class Fraction {
     int a, b;
+    int sign;
     
-    Fraction(int a, int b) {
+    Fraction(int a, int b, int sign) {
         this.a = a;
         this.b = b;
+        this.sign = sign;
         checkFractionTerms();
     }
     
