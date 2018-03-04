@@ -62,7 +62,7 @@ class Fraction {
     }
     
     private void checkFractionTerms() {
-        if(a<0 || b<0) {
+        if(a==0 || b==0) {
             System.err.println("Terms have to be not null.");
             System.exit(0);
         }
