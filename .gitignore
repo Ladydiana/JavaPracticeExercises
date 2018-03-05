@@ -23,3 +23,6 @@ hs_err_pid*
 /JavaPracticeExercises/nbproject/private/
 /build/
 /dist/
+
+#private
+nbproject/private/private.xml
